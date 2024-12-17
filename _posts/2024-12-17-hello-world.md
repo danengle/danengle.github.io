@@ -12,6 +12,4 @@ I mean, I have an idea of what I'm doing, just haven't done it with this before.
 
 - [My github](https://github.com/danengle) Do these nvim snippets make the right links...
 
-And still need to figure out the footer content...
-
 ## More to come

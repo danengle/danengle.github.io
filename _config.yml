@@ -21,8 +21,7 @@
 title: It does stuff
 email: engle.68@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Here is the place to read about the different parts of the "It does stuff" stack of things.
-  From git to pki to rails to nextjs. They all plug in somewhere here.
+  More info to come.
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: danengle.github.io
 url: https://danengle.github.io # the base hostname & protocol for your site, e.g. http://example.com
