@@ -1,24 +1,14 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ " /" | relative_url }}"></data>
-
+<footer class="new-site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
   <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-            {{ site.author | escape }}
-            {%- else -%}
-            {{ site.title | escape }}
-            {%- endif -%}
-          </li>
-        </ul>
+    <div class="footer-wrapper">
+      <div class="footer-info">
+        <p>More info coming soon.</p>
       </div>
-
-      <div class="footer-col footer-col-2">
+      <div class="footer-info">
+        <p>Second column</p>
+      </div>
+      <div class="footer-info">
         <ul class="social-media-list">
           <li>
             <a href="https://github.com/danengle">
@@ -36,11 +26,12 @@
                 </path>
               </svg>
               <span class="username">danengle</span>
+            </a>
+          </li>
+          <li>
+            <p class="rss-subscribe">subscribe <a href="{{"/feed.xml" | relative_url }}">via RSS</a></p>
           </li>
         </ul>
-      </div>
-      <div class="footer-col footer-col-3">
-        <p>More info coming soon.</p>
       </div>
     </div>
 
